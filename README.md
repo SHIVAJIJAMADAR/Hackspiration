@@ -57,7 +57,7 @@ Scholar Stream is a blockchain-based programmable money streaming vault that all
 - Prajwal Gidde
 - Shivaji Jamadar
 - Nandan Kabra
-- Vedant
+- Vedant Divate
 
 ---
 
