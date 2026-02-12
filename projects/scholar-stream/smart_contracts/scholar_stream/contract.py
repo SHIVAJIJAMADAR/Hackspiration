@@ -20,6 +20,7 @@ class ScholarStream(ARC4Contract):
         duration_seconds: UInt64,
     ) -> None:
 
+        # Pack stream data into single UInt64 storage
         packed = (
             total_amount
             | (Global.latest_timestamp << 64)
@@ -35,7 +36,8 @@ class ScholarStream(ARC4Contract):
     @arc4.abimethod
     def withdraw(self) -> None:
 
-        sender_address = Txn.sender.address()
+        # Convert sender into ARC4 Address
+        sender_address = arc4.Address(Txn.sender)
 
         stream = self.streams[sender_address]
 
@@ -46,6 +48,7 @@ class ScholarStream(ARC4Contract):
 
         elapsed = Global.latest_timestamp - start_time
 
+        # Clamp elapsed time
         if elapsed > duration:
             elapsed = duration
 
