@@ -1,0 +1,143 @@
+/* ================================
+   ScholarStream Global Theme CSS
+   ================================ */
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to bottom right, #b2f5ea, #bee3f8);
+}
+
+/* Page Layout */
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 80px 30px;
+}
+
+.container {
+  width: 100%;
+  max-width: 950px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+/* Header */
+.header {
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #444;
+}
+
+/* Card UI */
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 128, 128, 0.15);
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card h2 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+/* Buttons */
+.button {
+  width: 100%;
+  padding: 14px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: 0.2s ease;
+}
+
+.button-primary {
+  background: #00897b;
+  color: white;
+}
+
+.button-primary:hover {
+  background: #00695c;
+}
+
+.button-secondary {
+  background: #2d3748;
+  color: white;
+}
+
+.button-secondary:hover {
+  background: #1a202c;
+}
+
+/* Wallet Address */
+.wallet-address {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #333;
+  font-family: monospace;
+  word-break: break-word;
+}
+
+/* Streaming UI */
+.stream-box {
+  text-align: center;
+  padding: 25px;
+  border-radius: 18px;
+  border: 2px solid #81e6d9;
+  background: #f0fffd;
+}
+
+.stream-balance {
+  font-size: 3rem;
+  font-weight: 800;
+  color: green;
+}
+
+.stream-subtext {
+  font-size: 1rem;
+  color: #444;
+  margin-top: 8px;
+}
+
+.stream-rate {
+  margin-top: 15px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: teal;
+}
+
+/* Mentor Text */
+.mentor-text {
+  color: #444;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+/* Notes */
+.small-note {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 15px;
+}
+
+.locked-text {
+  text-align: center;
+  color: #555;
+}

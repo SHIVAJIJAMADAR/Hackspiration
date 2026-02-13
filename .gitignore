@@ -118,7 +118,6 @@ celerybeat.pid
 
 # SageMath parsed files
 *.sage.py
-
 # Environments
 .env
 .venv
@@ -172,3 +171,14 @@ node_modules
 artifacts/
 *.save
 node_modules/
+# Node
+node_modules/
+
+# Python
+__pycache__/
+.venv/
+
+# Env
+.env
+projects/scholar-stream/package.json
+projects/scholar-stream/package-lock.json
