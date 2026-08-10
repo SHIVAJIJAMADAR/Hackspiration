@@ -12,7 +12,7 @@ from google import genai
 INDEXER_URL = "https://testnet-idx.algonode.cloud"
 
 # 🔑 Paste your REAL Gemini API Key here
-GEMINI_API_KEY = "AIzaSyAV4Fd08BrIRjrpHabpaAZ00nYFkxewJbI"
+GEMINI_API_KEY =""
 
 # Create Gemini Client
 client = genai.Client(api_key=GEMINI_API_KEY)
